@@ -1,0 +1,4 @@
+DEBUG:root:Default info
+INFO:root:This is an info
+WARNING:root:Warning Msg
+ERROR:root:Error msg

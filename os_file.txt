@@ -1,0 +1,11 @@
+               The output looks great since the only 
+lines we are seeing are those which start with ``From:'', 
+but why are we seeing the extra blank lines? 
+This is due to that invisible newline character. 
+Each of the lines ends with a newline, so the print statement prints the string 
+in the variable line which includes a newline and then print adds another newline, 
+                            resulting in the double spacing effect we see.
+We could use line slicing to print all but the last character, 
+text@ghost.com
+    but a simpler approach is                  to use the rstrip method which strips whitespace 
+from the right side of a string as follows:

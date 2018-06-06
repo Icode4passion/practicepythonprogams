@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Blink 
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function fun(){
+			var div = document.getElementById('blink');
+			if (div.style.visibility == 'hidden'){
+				div.style.visibility = 'visible';
+			}
+			else{
+				div.style.visibility = 'hidden';
+
+		}
+			}
+
+	window.setInterval(fun,500)
+	</script>
+
+	<div id = 'blink'>
+		<h1>Hello World !</h1>
+	</div>
+
+</body>
+</html>
+
+ 
